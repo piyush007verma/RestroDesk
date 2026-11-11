@@ -1,0 +1,5 @@
+# Copy this file to config/db.properties and fill in YOUR MySQL details.
+# config/db.properties is ignored by Git - never commit your real password.
+db.url=jdbc:mysql://localhost:3306/restodesk?useSSL=false&serverTimezone=Asia/Kolkata&allowPublicKeyRetrieval=true
+db.user=root
+db.password=your_password_here

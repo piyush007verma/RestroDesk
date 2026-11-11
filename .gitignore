@@ -1,0 +1,17 @@
+# Build output
+out/
+*.class
+
+# Secrets: every member keeps their own copy
+config/db.properties
+
+# MySQL driver jar (each member downloads it into lib/, see lib/README.md)
+lib/*.jar
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+out-tests/
+shots/
